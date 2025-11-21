@@ -1,40 +1,40 @@
-# 📊 Portfolio Data Analyst - Miguel Correa
+# 📊 Portafolio de Analista de Datos – [Tu Nombre]
 
-Welcome to my Data Analyst Portfolio! Here you will find a detailed overview of my journey and projects on the field of data analysis. Below, I present some highlights:
+¡Bienvenido/a! Soy [Tu Nombre], Analista de Datos con experiencia en extracción, análisis y visualización de datos para la toma de decisiones de negocio. Este repositorio recopila mis principales proyectos personales y profesionales en Python, SQL y Power BI.
 
-## 🚀 Proyects
+## Herramientas y habilidades principales
 
-1. **Análisis de Utilidad y Margenes en venta de productos digitales a nivel internacional en Power BI**
-   - Calculé la utilidad y los márgenes de beneficio por país y producto.
-   - Identifiqué los países con mejor rendimiento en términos de ingresos y beneficios.
-   - Analicé las tendencias y patrones estacionales en las ventas a nivel internacional.
-   - Evalué si existen oportunidades para mejorar la eficiencia y la rentabilidad en ciertos mercados.
+- **Lenguajes:** Python (pandas, numpy, matplotlib, seaborn, scikit-learn), SQL, DAX
+- **BI & Visualización:** Power BI, Tableau
+- **Procesamiento de datos:** limpieza, transformación, modelado
+- **Machine Learning básico:** regresión, clasificación
+- **Presentación de resultados**
 
-   📄 [01 Dashboard Análisis de Utilidad y Márgenes.pdf](https://github.com/valentinalosasso/PORTAFOLIO_ANALISTA_DE_DATOS/blob/64a83ee75dc2154c65ef0c10c761d8d4ee3726bd/01%20Dashboard%20An%C3%A1lisis%20de%20Utilidad%20Y%20M%C3%A1genes.pdf)
-   
-   📊 [01 Dashboard Análisis de Utilidad y Márgenes.pbix](https://github.com/valentinalosasso/PORTAFOLIO_ANALISTA_DE_DATOS/blob/19d21b520b7e46466c91265f6205eac28df21a7e/01%20Dashboard%20An%C3%A1lisis%20de%20Utilidad%20y%20M%C3%A1genes.pbix)
+## 🎯 Proyectos destacados
 
+### 1. Análisis de ventas minoristas
+- Limpieza y análisis exploratorio de datos de ventas.
+- Dashboard interactivo en Power BI.
+- [Ver proyecto](./analisis-ventas/README.md)
 
-3. **Enfoque en Beneficios - Dashboard Financiero en Power BI**
-   - Evalué cómo los beneficios varían según las regiones geográficas y los países.
-   - Identifiqué tendencias y patrones estacionales en los ingresos y beneficios.
-   - Comparé el rendimiento financiero de diferentes entidades y marcas.
+### 2. Predicción de demanda de productos
+- Modelado de series de tiempo para predicción.
+- Métricas de desempeño y visualización.
+- [Ver proyecto](./machine-learning/README.md)
 
-   📄 [02 Dashboard Enfoque en Beneficios.pdf](https://github.com/valentinalosasso/PORTAFOLIO_ANALISTA_DE_DATOS/blob/1f0da65f63c05d1279fa8b4c414f899e53bab147/02%20Dashboard%20Enfoque%20en%20Beneficios.pdf)
-   
-   📊 [02 Dashboard Enfoque en Beneficios.pbix](https://github.com/valentinalosasso/PORTAFOLIO_ANALISTA_DE_DATOS/blob/1f15166daaa7158d945e87d950e9a5c253f0736e/02%20Dashboard%20Enfoque%20en%20Beneficios.pbix)
+### 3. Dashboard de seguimiento de KPIs
+- Creación de KPIs comerciales con Power BI.
+- Dashboard interactivo online.
+- [Ver dashboard](./dashboards/powerbi/Dashboard-Sales.pbix)
 
-## 🛠️ Habilidades Destacadas
+---
 
-- Manipulación y limpieza de datos utilizando herramientas como Microsoft Excel, Power BI y SQL.
-- Creación de visualizaciones efectivas en Power BI y Power Point.
-- Experiencia en la interpretación de métricas y análisis de tendencias.
-- Trabajo en equipos multidisciplinarios y comunicación efectiva.
-  
-## 🎯 Goals and Vision
+> *Este portafolio está en constante actualización y algunos datos han sido anonimizados o generados para cumplir con políticas de privacidad.*
 
-My vision as a Data Analyst is to continue exploring new ways to transform data into valuable information. My objective is to apply my analytical skills to improve processes, drive data-driven decisions, and contribute to the growth of collaborative teams and new research.
+---
 
-Thank you for visiting my portfolio! I am excited about the opportunities ahead and eager to continue developing my skills and knowledge in the field of data analysis.
+## Contacto
+- LinkedIn: www.linkedin.com/in/miguel-correa-42a81731a
+- Email: bochicasimijaca@gmail.com
 
 
