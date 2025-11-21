@@ -6,7 +6,7 @@ import math
 ANCHO_CANVAS = 600
 ALTO_CANVAS = 550
 ANCHO_VENTANA = 600
-ALTO_VENTANA = 720 # Aumentamos el alto para los controles
+ALTO_VENTANA = 720 
 COLOR_FONDO = "black"
 COLOR_PUNTO = "gold"
 TAMANO_PUNTO = 2
@@ -15,7 +15,7 @@ TAMANO_PUNTO = 2
 ventana = tk.Tk()
 ventana.title("Geometría Viva")
 ventana.geometry(f"{ANCHO_VENTANA}x{ALTO_VENTANA}")
-ventana.resizable(False, False) # Evita que se pueda cambiar el tamaño de la ventana
+ventana.resizable(False, False) 
 
 # --- FUNCIÓN PRINCIPAL PARA DIBUJAR ---
 def actualizar_espiral():
@@ -42,7 +42,7 @@ def actualizar_espiral():
         label_angulo_resultado.config(text="Error: Ingrese solo números enteros")
         return
 
-    # 4. Dibujar la nueva espiral (LÓGICA CORREGIDA)
+    # 4. Dibujar la nueva espiral 
     centro_x = ANCHO_CANVAS / 2
     centro_y = ALTO_CANVAS / 2
     a = 0
@@ -64,11 +64,7 @@ def actualizar_espiral():
         
         lienzo.create_oval(x1, y1, x2, y2, fill=COLOR_PUNTO, outline="")
         
-        # Incrementar el ángulo para la siguiente iteración
-        angulo_actual_grados += paso_angulo
-        
-    # --- Pequeña mejora: dibujar un punto final exactamente en el ángulo objetivo ---
-    # Esto asegura que el final de la espiral siempre sea visible, incluso si el 'paso' se lo salta.
+     
     if angulo_objetivo > 0:
         angulo_rad_final = math.radians(angulo_objetivo)
         radio_final = a + b * angulo_rad_final
@@ -109,7 +105,7 @@ entry_denominador.grid(row=1, column=1, pady=5)
 
 # 5. Botón para dibujar
 boton_dibujar = tk.Button(frame_controles, text="Dibujar Espiral", command=actualizar_espiral)
-boton_dibujar.grid(row=0, column=2, rowspan=2, padx=20, ipady=5) # Ocupa 2 filas de alto
+boton_dibujar.grid(row=0, column=2, rowspan=2, padx=20, ipady=5) 
 
 # 6. Etiqueta para mostrar el ángulo
 label_angulo_info = tk.Label(frame_controles, text="Ángulo formado:", font=fuente_label)
